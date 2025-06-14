@@ -1,0 +1,38 @@
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files (raw and processed, tracked by DVC)
+data/raw/
+data/processed/
+
+# DVC storage
+/dvc_storage/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+
+# Output files
+outputs/
+
+# DVC ignore (except .dvc files)
+!*.dvc
