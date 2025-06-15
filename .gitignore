@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env311/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# DVC cache
+.dvc/cache/
